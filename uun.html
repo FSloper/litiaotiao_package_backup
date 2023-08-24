@@ -1,0 +1,550 @@
+<article itemscope="itemscope" itemtype="http://schema.org/Article" data-entry-id="6938590373740544007"
+         data-draft-id="6938580745233694728" data-original-type="0" class="article" data-v-70df183e=""
+         data-v-e9577d70=""><!---->
+    <meta itemprop="headline" content="李跳跳进阶指南">
+    <meta itemprop="keywords" content="Android,APP">
+    <meta itemprop="datePublished" content="2021-03-12T02:34:43.000Z">
+    <meta itemprop="image"
+          content="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-assets/icon/icon-128.png~tplv-t2oaga2asx-image.image">
+    <div itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">
+        <meta itemprop="name" content="李跳跳">
+        <meta itemprop="url" content="https://juejin.cn/user/4371313960419486">
+    </div>
+    <div itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization">
+        <meta itemprop="name" content="掘金">
+        <div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url"
+                  content="https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/gold-assets/icon/icon-white-180.png~tplv-t2oaga2asx-image.image">
+            <meta itemprop="width" content="180">
+            <meta itemprop="height" content="180">
+        </div>
+    </div>
+    <h1 class="article-title" data-v-70df183e="">
+        李跳跳进阶指南
+        </h1>
+    <div id="article-root" itemprop="articleBody" class="article-viewer markdown-body cache result" data-v-70df183e="">
+        <style>.markdown-body {
+            word-break: break-word;
+            line-height: 1.75;
+            font-weight: 400;
+            font-size: 15px;
+            overflow-x: hidden;
+            color: #333;
+            position: relative;
+            background-image: linear-gradient(90deg, rgba(217, 234, 251, .25) 3%, transparent 0), linear-gradient(1turn, rgba(217, 234, 251, .25) 3%, transparent 0);
+            background-size: 20px 20px;
+            background-position: 50%
+        }
+
+        .markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4, .markdown-body h5, .markdown-body h6 {
+            line-height: 1.5;
+            padding-left: 8px;
+            padding-bottom: 0;
+            margin-top: 35px;
+            margin-bottom: 10px;
+            font-weight: 900;
+            font-family: serif;
+            letter-spacing: 1px;
+            color: #000
+        }
+
+        .markdown-body h1:hover, .markdown-body h2:hover, .markdown-body h3:hover, .markdown-body h4:hover, .markdown-body h5:hover, .markdown-body h6:hover {
+            background-color: #fff
+        }
+
+        .markdown-body h1 {
+            font-size: 30px;
+            margin-bottom: 5px
+        }
+
+        .markdown-body h2 {
+            font-size: 24px;
+            position: relative
+        }
+
+        .markdown-body h2:after {
+            content: "";
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 1px;
+            position: absolute
+        }
+
+        .markdown-body h3 {
+            font-size: 18px;
+            padding-bottom: 0
+        }
+
+        .markdown-body h4 {
+            font-size: 16px
+        }
+
+        .markdown-body h5 {
+            font-size: 15px
+        }
+
+        .markdown-body h6 {
+            margin-top: 5px
+        }
+
+        .markdown-body p {
+            line-height: inherit;
+            margin-top: 22px;
+            margin-bottom: 22px
+        }
+
+        .markdown-body img {
+            max-width: 100%
+        }
+
+        .markdown-body hr {
+            height: 1px;
+            border: none;
+            margin-top: 32px;
+            margin-bottom: 32px;
+            background-size: 4px 1px;
+            background-image: linear-gradient(270deg, #37b2ff 0, #37b2ff 25%, transparent 50%)
+        }
+
+        .markdown-body code {
+            margin: 0 4px;
+            word-break: break-word;
+            overflow-x: auto;
+            background-color: #fff7f7;
+            color: #f06;
+            font-size: .87em;
+            padding: .065em .4em
+        }
+
+        .markdown-body code, .markdown-body pre {
+            font-family: -apple-system, system-ui, Menlo, Monaco, Consolas, Courier New;
+            position: relative
+        }
+
+        .markdown-body pre {
+            margin: 15px 8px;
+            border: 1px solid #f5f5f7;
+            line-height: 1.75
+        }
+
+        .markdown-body pre:before {
+            top: -4px;
+            left: -4px;
+            border-top: 8px solid #feea1e;
+            border-left: 8px solid #feea1e
+        }
+
+        .markdown-body pre:after, .markdown-body pre:before {
+            width: 20px;
+            height: 20px;
+            content: "";
+            z-index: 10;
+            position: absolute
+        }
+
+        .markdown-body pre:after {
+            right: -4px;
+            bottom: -4px;
+            border-right: 8px solid #37b2ff;
+            border-bottom: 8px solid #37b2ff
+        }
+
+        .markdown-body pre > code {
+            font-size: 12px;
+            padding: 15px 12px;
+            overflow-x: auto;
+            margin: 0;
+            word-break: normal;
+            display: block;
+            color: #333;
+            background-color: #fff;
+            background-image: linear-gradient(135deg, hsla(0, 0%, 87.8%, .1), hsla(0, 0%, 87.8%, .1) 25%, transparent 0, transparent 50%, hsla(0, 0%, 87.8%, .1) 0, hsla(0, 0%, 87.8%, .1) 75%, transparent 0, transparent) !important;
+            background-size: 10px 10px !important;
+            position: unset !important
+        }
+
+        .markdown-body a {
+            margin: 0 4px;
+            text-decoration: none;
+            color: #37b2ff;
+            transition: .3s;
+            border-bottom: 1px dashed #37b2ff;
+            position: relative;
+            display: inline-block;
+            vertical-align: bottom
+        }
+
+        .markdown-body a:before {
+            bottom: 90%;
+            width: 120px;
+            max-width: 0;
+            content: "READ MORE +";
+            color: #fff;
+            background-color: #1fb3ff;
+            position: absolute;
+            white-space: nowrap;
+            transition: .3s;
+            box-sizing: border-box;
+            pointer-events: none;
+            overflow: hidden
+        }
+
+        .markdown-body a:active:before, .markdown-body a:hover:before {
+            max-width: 120px;
+            padding-left: 14px
+        }
+
+        .markdown-body table {
+            width: 100%;
+            max-width: 100%;
+            font-size: 12px;
+            background-color: #fff;
+            overflow: auto;
+            border-collapse: collapse
+        }
+
+        .markdown-body table tr:hover td, .markdown-body table tr:hover th {
+            border-bottom: 1px solid #feea1e
+        }
+
+        .markdown-body thead {
+            text-align: left
+        }
+
+        .markdown-body th {
+            font-size: 1.2em;
+            border-bottom: 1px dashed #eee
+        }
+
+        .markdown-body tr:nth-child(2n) {
+            background-color: hsla(0, 0%, 87.8%, .1);
+            border-bottom: 1px solid #fff
+        }
+
+        .markdown-body td, .markdown-body th {
+            padding: 12px 7px;
+            line-height: 24px
+        }
+
+        .markdown-body td {
+            min-width: 120px;
+            border-bottom: 1px dashed #fff
+        }
+
+        .markdown-body blockquote {
+            color: #666;
+            padding: 12px 23px 2px;
+            border: 1px solid #37b2ff;
+            background-color: #fff;
+            margin: 22px 0;
+            position: relative
+        }
+
+        .markdown-body blockquote > p {
+            margin: 10px 0
+        }
+
+        .markdown-body blockquote:after {
+            content: "FROM";
+            left: 0;
+            width: 40px;
+            color: #fff;
+            background-color: #37b2ff;
+            text-align: center
+        }
+
+        .markdown-body blockquote:after, .markdown-body blockquote:before {
+            top: 0;
+            line-height: 1;
+            padding: 2px 0;
+            font-size: 12px;
+            font-weight: lighter;
+            position: absolute;
+            pointer-events: none
+        }
+
+        .markdown-body blockquote:before {
+            content: "CITATION";
+            left: 44px;
+            color: #37b2ff
+        }
+
+        .markdown-body ol, .markdown-body ul {
+            padding-left: 28px
+        }
+
+        .markdown-body ol li, .markdown-body ul li {
+            line-height: 2em;
+            margin-bottom: 0;
+            list-style: inherit
+        }
+
+        .markdown-body ol li .task-list-item, .markdown-body ul li .task-list-item {
+            list-style: none
+        }
+
+        .markdown-body ol li .task-list-item ol, .markdown-body ol li .task-list-item ul, .markdown-body ul li .task-list-item ol, .markdown-body ul li .task-list-item ul {
+            margin-top: 0
+        }
+
+        .markdown-body ol ol, .markdown-body ol ul, .markdown-body ul ol, .markdown-body ul ul {
+            margin-top: 3px
+        }
+
+        .markdown-body ol ol li, .markdown-body ol ul li, .markdown-body ul ol li, .markdown-body ul ul li {
+            border-bottom: none
+        }
+
+        .markdown-body ol li {
+            padding-left: 6px;
+            list-style: decimal-leading-zero
+        }
+
+        .markdown-body .contains-task-list {
+            padding-left: 0
+        }
+
+        .markdown-body .task-list-item {
+            list-style: none
+        }
+
+        .markdown-body input[type=checkbox i]:disabled {
+            background-color: #6cf
+        }
+
+        @media (max-width: 720px) {
+            .markdown-body h1 {
+                font-size: 24px
+            }
+
+            .markdown-body h2 {
+                font-size: 20px
+            }
+
+            .markdown-body h3 {
+                font-size: 18px
+            }
+        }</style>
+        <style class="darkreader darkreader--sync" media="screen"></style>
+        <style data-highlight="" data-highlight-key="androidstudio">.markdown-body pre, .markdown-body pre > code.hljs {
+            color: #a9b7c6;
+            background: #282b2e
+        }
+
+        .hljs-bullet, .hljs-literal, .hljs-number, .hljs-symbol {
+            color: #6897bb
+        }
+
+        .hljs-deletion, .hljs-keyword, .hljs-selector-tag {
+            color: #cc7832
+        }
+
+        .hljs-link, .hljs-template-variable, .hljs-variable {
+            color: #629755
+        }
+
+        .hljs-comment, .hljs-quote {
+            color: grey
+        }
+
+        .hljs-meta {
+            color: #bbb529
+        }
+
+        .hljs-addition, .hljs-attribute, .hljs-string {
+            color: #6a8759
+        }
+
+        .hljs-section, .hljs-title, .hljs-type {
+            color: #ffc66d
+        }
+
+        .hljs-name, .hljs-selector-class, .hljs-selector-id {
+            color: #e8bf6a
+        }
+
+        .hljs-emphasis {
+            font-style: italic
+        }
+
+        .hljs-strong {
+            font-weight: 700
+        }</style>
+        <style class="darkreader darkreader--sync" media="screen"></style>
+        <blockquote>
+            <p><strong>注意：</strong><code>小白萌新不需要看这份进阶指南，使用默认设置已经可以跳过绝大部分广告了。</code>
+            </p>
+        </blockquote>
+        <blockquote>
+            <p><strong>反馈：</strong><code>公众号: 大小姐李跳跳。🥑</code></p>
+        </blockquote>
+        <h2 data-id="heading-0">李跳跳是什么？</h2>
+        <p>一款用来跳过<code>开屏广告</code>和<code>弹窗</code>的安卓应用。</p>
+        <h2 data-id="heading-1">李跳跳的原理？</h2>
+        <p>利用安卓系统的<code>无障碍</code>权限，帮助用户<code>自动点击</code>广告上的<code>跳过按钮</code>。</p>
+        <h2 data-id="heading-2">自定义规则</h2>
+        <h3 data-id="heading-3">1.
+            开屏广告规则：<code>{"keywords":["xxx"]}</code>、<code>{"keywords_append":["xxx"]}</code></h3>
+        <p>李跳跳默认规则已经可以跳过绝大部分开屏广告了，但李跳跳也不是万能的。当我们遇到无法跳过的开屏广告时，可以使用这条规则：<code>{"keywords":["xxx"]}</code>。其中<code>xxx</code>可以是<code>跳过按钮</code>的文案，比如<code>{"keywords":["关闭广告"]}</code>；也可以是跳过按钮的<code>id</code>或<code>bounds</code>，比如：<code>{"keywords":["tv_close_button"]}</code>、<code>{"keywords":["900,160,1170,250"]}</code>。
+        </p>
+        <p><a href="#jump0" title="#jump0">知识点：什么是跳过按钮的<code>id</code>和<code>bounds</code>？</a></p>
+
+
+        <table>
+            <thead>
+            <tr>
+                <th><strong>参数 keywords 和 keywords_append 的区别：</strong></th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>keywords</td>
+                <td>会覆盖默认规则。</td>
+            </tr>
+            <tr>
+                <td>keywords_append</td>
+                <td>在默认规则的基础上，追加规则。</td>
+            </tr>
+            </tbody>
+        </table>
+        <h3 data-id="heading-4">2. 弹窗规则：<code>{"popup_rules":[{"id":"xxx","action":"xxx"}]}</code></h3>
+        <p>我们也可以使用李跳跳来关闭应用内的<code>弹窗</code> ，比如下图所示的<code>抖音更新弹窗</code>，就可以用<code>{"popup_rules":[{"id":"检测到更新","action":"以后再"}]}</code>规则进行关闭。这条规则的意思是：<code>当检测到「检测到更新」这几个文字的时候，就自动点击「以后再」这个按钮。</code>
+        </p>
+        <p>
+            细心的你会怀疑上面的规则是不是写错了，为什么参数<code>action</code>的值不是<code>以后再说</code>而是<code>以后再</code>？其实我是故意为之，目的是为了引出以下知识点：<code>规则里面的文字默认情况下是模糊匹配的</code>。比如改成<code>以后</code>、<code>以后再说</code>、<code>再说</code>，甚至<code>后再</code>都是可行的。
+        </p>
+        <p>规则里面的文字默认是<code>模糊匹配</code>的，自然也支持<code>首尾匹配</code>和<code>全匹配</code>，只需在文字前面加上特定的符号就行。参照下面的<code>举例张三</code>，比如<code>+检测到</code>的意思是匹配以<code>检测到</code><em><strong>开头</strong></em>的文字；比如<code>-用户体验</code>的意思是匹配以<code>用户体验</code><em><strong>结尾</strong></em>的文字；比如<code>=以后再说</code>的意思是匹配和<code>以后再说</code>完全<em><strong>相等</strong></em>的文字。其中符号<code>&amp;</code>是用来连接任意个条件的，你可以把它理解为<code>且</code>。
+        </p>
+        <blockquote>
+            <p>
+                <strong>举例张三：</strong><code>{"popup_rules":[{"id":"+检测到&amp;-用户体验","action":"=以后再说"}]}</code>
+            </p>
+        </blockquote>
+        <p>
+            <img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6931d8a2645e497c928bc647e5c69069~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?"
+                 alt="IMG_20220608jpg.jpg" loading="lazy" class="medium-zoom-image"></p>
+        <hr>
+        <p>有时候我们会遇到一些弹窗，它们的关闭按钮不是文字，而是一个<code>叉号</code>❎
+            ，比如下图所示的<code>美团弹窗</code>，此时我们又该如何写规则呢？</p>
+        <p><strong><code>分两种情况：</code></strong> 如果这个弹窗<code>可以</code>通过手机的<code>返回键</code>关闭，我们可以这样写规则<code>{"popup_rules":[{"id":"=天天神券","action":"GLOBAL_ACTION_BACK"}]}</code>。其中的<code>GLOBAL_ACTION_BACK</code>是固定不变的。
+        </p>
+        <p>如果这个弹窗<code>不可以</code>通过手机的<code>返回键</code>关闭，我们需要知道叉号的<code>id</code>或<code>bounds</code>才行。假设这个弹窗的叉号的<code>id</code>是<code>tv_close_button</code>，我们可以这样写规则<code>{"popup_rules":[{"id":"=天天神券","action":"tv_close_button"}]}</code>。
+        </p>
+        <p>但很多时候<strong>叉号(<code>弹窗的关闭按钮</code>)</strong> 不一定会有<code>id</code>，不过也没关系，因为它一定会有<code>bounds</code>。假设叉号的<code>bounds</code>是<code>500,900,620,1020</code>，我们可以这样写规则<code>{"popup_rules":[{"id":"=天天神券","action":"500,900,620,1020"}]}</code>。
+        </p>
+        <p><a href="#jump1" title="#jump1">知识点：如何获取关闭按钮的<code>id</code>或<code>bounds</code>？</a></p>
+        <p>
+            <img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/db9ec937deee4272a1b86c150aa4e7d5~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?"
+                 alt="6951.jpg" loading="lazy" class="medium-zoom-image"></p>
+        <h3 data-id="heading-5">3. 设置强制点击：<code>{"click_way_popup":1}</code></h3>
+        <p><a href="#jump2" title="#jump2">详情参考：我的规则正确，但无法关闭弹窗怎么办？</a></p>
+        <h3 data-id="heading-6">4. 设置搜索次数：<code>{"search_times_popup":5}</code></h3>
+        <p><a href="#jump2" title="#jump2">详情参考：我的规则正确，但无法关闭弹窗怎么办？</a></p>
+        <h3 data-id="heading-7">5. 设置延迟点击：<code>{"delay":200}</code></h3>
+        <ul>
+            <li>开屏广告延迟点击：<code>{"delay":200}</code></li>
+            <li>弹窗延迟点击：<code>{"delay_popup":200}</code></li>
+        </ul>
+        <blockquote>
+            <p><strong>温馨提示：</strong><code>单位毫秒，1秒等于1000毫秒。</code></p>
+        </blockquote>
+        <h3 data-id="heading-8">6. 设置点击次数：<code>{"popup_rules":[{"id":"xxx","action":"xxx",times:2}]}</code></h3>
+        <p>有些规则是不用点击的，此时我们可以把点击次数<code>times</code>设置为<code>0</code>；有时候我们会遇到两个不一样的弹窗，但它们可以用同一条规则来关闭，此时你可以选择输入两条一模一样的规则，或者输入一条规则但把它的点击次数<code>times</code>设为<code>2</code>；
+        </p>
+        <h3 data-id="heading-9">7. 联合规则：<code>{"unite_popup_rules":true}</code><a data-id="jump3" title=""
+                                                                                      ref="nofollow noopener noreferrer"
+                                                                                      href="https://link.juejin.cn?target="></a>
+        </h3>
+        <p>
+            我们上面举的例子，<code>关闭抖音更新弹窗</code>和<code>关闭美团天天神券弹窗</code>，这两个任务都是<code>瞬间任务</code>，用一条规则表示就行。
+        </p>
+        <p>
+            但有些任务是<code>持续任务</code>，它们的耗时是不确定的，至少需要两条规则表示才行。比如<code>有一个按钮需要倒计时100秒后才能点击</code>，此时我们可以这样写规则：
+        </p>
+        <ul>
+            <li>
+                把这个过程的<code>中间态</code>用一条规则表示：<code>{"id":"还剩&amp;秒","action":"还剩&amp;秒",times:0}</code>
+            </li>
+            <li>把我们需要点击的按钮用一条规则表示：<code>{"id":"弹窗","action":"关闭按钮"}</code></li>
+            <li>设置参数<code>unite_popup_rules</code>的值为<code>true</code>。</li>
+        </ul>
+        <p>所以如果想<code>点击一个100秒后才能点击的按钮</code>，完整规则应该是：<code>{"popup_rules":[{"id":"还剩&amp;秒","action":"还剩&amp;秒",times:0},{"id":"弹窗","action":"关闭按钮"}],"unite_popup_rules":true}</code>
+        </p>
+        <blockquote>
+            <p>
+                <strong>温馨提示：</strong><code>利用联合规则我们可以完成很多🌱耗时不确定的任务🌱，比如应用自动安装、微信自动查看多张原图等。</code>
+            </p>
+        </blockquote>
+        <blockquote>
+            <p><strong>课后作业：</strong> <code>参考公众号分享的</code><a
+                    href="https://link.juejin.cn?target=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2FHM7S_yDRUwaHnzAT9nVqAQ"
+                    target="_blank" title="https://mp.weixin.qq.com/s/HM7S_yDRUwaHnzAT9nVqAQ"
+                    ref="nofollow noopener noreferrer">MIUI一键安装规则</a><code>，实现应用自动安装。</code></p>
+        </blockquote>
+        <h3 data-id="heading-10">8. 根据CheckBox的状态点击控件</h3>
+        <p>
+            <code>CheckBox</code>控件有两种状态，一种是<code>选中状态</code>，另一种是<code>未选中状态</code>。假设某个<code>CheckBox</code>控件的<code>bounds</code>是<code>100,200,300,400</code>，如果我们要点击它的其中一种状态，可以在<code>bounds</code>的后面追加数字<code>0</code>或<code>1</code>来表示，比如：
+        </p>
+        <ul>
+            <li>已选中状态：<code>100,200,300,400,1</code></li>
+            <li>未选中状态：<code>100,200,300,400,0</code></li>
+        </ul>
+        <blockquote>
+            <p><strong>课后作业：</strong><code>根据本节知识，实现QQ自动勾选原图。</code></p>
+        </blockquote>
+        <h2 data-id="heading-11">什么是控件的<code>id</code>和<code>bounds</code>？<a data-id="jump0" title=""
+                                                                                     ref="nofollow noopener noreferrer"
+                                                                                     href="https://link.juejin.cn?target="></a>
+        </h2>
+        <p>我们把<code>APP</code>界面上的元素，比如按钮、图标、输入框这些统称为控件。比如<code>取消按钮</code>它就是一个文本控件，它的文字就是<code>取消</code>。我们写规则时可以根据<code>取消</code>这两个字来定位这个按钮。但有些按钮它是没有文字的，比如上面美团弹窗的<code>叉号按钮</code>。此时我们需要用到控件的<code>id</code>或<code>bounds</code>来定位这些没有文字的按钮。
+        </p>
+        <p>
+            但什么是控件的<code>id</code>和<code>bounds</code>呢？控件的<code>id</code>就是控件的<code>身份证</code>(<code>普通用户可以简单这样理解</code>)；控件的<code>bounds</code>就是控件的<code>大小和位置</code>信息。
+        </p>
+        <blockquote>
+            <p><strong>温馨提示：</strong><code>一个控件是有可能没有id的，但一定会有bounds。</code></p>
+        </blockquote>
+        <h2 data-id="heading-12">如何获取控件的<code>id</code>或<code>bounds</code>？<a data-id="jump1" title=""
+                                                                                       ref="nofollow noopener noreferrer"
+                                                                                       href="https://link.juejin.cn?target="></a>
+        </h2>
+        <p>我们可以通过特定的工具来获取到控件的相关信息，我为大家找到了一个叫<code>autojs</code>的开源APP，<a
+                href="https://link.juejin.cn?target=https%3A%2F%2Fwwzo.lanzoub.com%2Fb01vhobni" target="_blank"
+                title="https://wwzo.lanzoub.com/b01vhobni"
+                ref="nofollow noopener noreferrer">可以到这里下载，密码：1233</a>。</p>
+        <blockquote>
+            <p><strong>autojs教程：</strong><a href="https://juejin.cn/post/7146224911030157320" target="_blank"
+                                              title="https://juejin.cn/post/7146224911030157320">利用 autojs
+                获取控件信息。</a></p>
+        </blockquote>
+        <h2 data-id="heading-13">常见问题</h2>
+        <h3 data-id="heading-14">1. 我的规则正确，但无法关闭对应弹窗怎么办？<a data-id="jump2" title=""
+                                                                             ref="nofollow noopener noreferrer"
+                                                                             href="https://link.juejin.cn?target="></a>
+        </h3>
+        <p>
+            首先，判断你的任务是<code>瞬间任务</code>还是<code>持续任务</code>？<strong><code>如果是瞬间任务，</code></strong>
+            在确保你的规则是正确的前提下，可以试试以下两个方案：</p>
+        <ul>
+            <li>如果有跳过提示，设置强制点击就行：<code>{"popup_rules":[], "click_way_popup":1}</code></li>
+            <li>如果没跳过提示，延长搜索次数就行：<code>{"popup_rules":[], "search_times_popup":5}</code></li>
+        </ul>
+        <blockquote>
+            <p><strong>温馨提示：</strong><code>搜索次数 search_times_popup 越小越省电，最好是个位数。</code></p>
+        </blockquote>
+        <p><strong><code>如果是持续任务，</code></strong> 可以参考上面的<a href="#jump3" title="#jump3">联合规则章节。</a>
+        </p>
+        <h3 data-id="heading-15">2. 出现误点怎么办？</h3>
+        <p>首先，先删除自己的自定义规则，看看是否是自己的规则造成误点。</p>
+        <p>其次，在少数情况下，李跳跳的默认规则也会出现<code>误点</code>
+            <strong>(<code>错误地点击了其它地方</code>)</strong>，最简单的解决方案就是在李跳跳里面找到<code>目标APP</code>，把它加入<code>白名单</code>。
+        </p>
+        <p>其次，你也可以用参数<code>keywords</code>来覆盖默认的规则，也就是说你自己告诉李跳跳应该点击哪里，比如：<code>{"keywords":["500,900,620,1020"]}</code>。
+        </p>
+        <h3 data-id="heading-16">3. 不知道某个弹窗属于哪个APP怎么办？</h3>
+        <p>通过<code>autojs</code>软件获取这个弹窗任意控件的<code>控件信息</code>，复制控件信息里面的<code>包名</code>
+            <strong>(<code>packageName</code>)</strong> 信息，通过<code>包名</code>在李跳跳里面搜索对应<code>APP</code>就行。
+        </p></div>
+</article>
