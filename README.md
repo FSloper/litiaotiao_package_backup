@@ -4,7 +4,7 @@
 
 [https://mp.weixin.qq.com/s/gsC9STZlGrPNNEKUV4btkA](https://mp.weixin.qq.com/s/gsC9STZlGrPNNEKUV4btkA)
 
-All files were downloaded from [https://pan.baidu.com/s/1IHPQp1Rgn9K67N-v4ZcNxw?pwd=1233](https://pan.baidu.com/s/1IHPQp1Rgn9K67N-v4ZcNxw?pwd=1233) on August 24, 2023
+uuu.html 为自定义规则介绍
 
 | File                                                                                                                                                    | Author Upload Time  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
